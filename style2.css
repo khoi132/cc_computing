@@ -1,0 +1,93 @@
+   .wrapper {
+            width: 100%px;
+            height: auto;
+            margin: auto;
+        }
+
+        .header {
+
+            height:300px;
+
+            color: white;
+            border: 1px solid black;
+            background-image: url("https://candangstudio.com/wp-content/uploads/2020/08/50194097817_f20c944307_o.jpg");
+            Margin: auto;
+        }
+
+
+
+
+        .logo {
+            float: right;
+        }
+
+        #form_seach {
+            margin-top: 20px;
+            text-align: center;
+
+        }
+
+            #form_seach input[type=text] {
+                width: 250px;
+                height: 30px;
+                border-radius: 15px;
+            }
+
+            #form_seach input[type=submit] {
+                height: 30px;
+                border-radius: 15px;
+            }
+
+        .menu {
+    list-style: none;
+    padding-left: 200px;
+    padding-right: 20px;
+    background-color: lightpink;
+    border: 1px solid black;
+        }
+
+            .menu ul li  {
+                list-style: none;
+                display: inline;
+
+
+            }
+
+                .menu ul li a  {
+                    text-decoration: none;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    margin: 30px;
+                }
+                .menu :hover{
+                    color: red;
+                }
+
+        .login {
+width: 600px;
+margin: 10px auto;
+}
+input[type=text], input[type=password] {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+background-color: white;
+}
+  
+.button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+  
+.button:hover {
+opacity: 0.8 ;
+}
